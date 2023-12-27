@@ -1,9 +1,22 @@
-The RSA algorithm is widely used to enable public key encryption, which result in secure data storage and secure data transmisson among other benefits. Detailed explanation of RSA algorithm can be found thorugh internet. here is a wiki link to RSA algorithm https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+# RSA Encryption and Decryption
 
-This sub dir is created since RSA algorithm could be implemented in different ways, Examples here including using different libraries of python such as sympy and cryptography. In real life applications, The key generation part of RSA algorithm is more complicated of course.
+The RSA algorithm is widely used to enable public-key encryption, resulting in secure data storage and transmission, among other benefits. A detailed explanation of the RSA algorithm can be found on [Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem)).
 
-Here is the correct program usage. Remember that correct input is absolute necessary. 
+This subdirectory contains examples of implementing the RSA algorithm using different Python libraries, such as SymPy and cryptography. In real-life applications, the key generation part of the RSA algorithm is more complicated.
 
+## Program Usage
+
+To run the program, execute the following command in your terminal:
+
+```bash
+python rsa_sympy.py
+```
+
+The name of the file will be different based on which method you want to try.
+
+The program will prompt you with the following menu:
+
+```bash
 Choose operation:
 1. Encrypt
 2. Decrypt
@@ -26,3 +39,6 @@ Choose operation:
 -1. Quit
 Enter 1, 2, or -1: -1
 Quitting the program.
+```
+
+Remember that correct input is absolutely necessary for the program to work as intended.
